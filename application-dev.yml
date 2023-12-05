@@ -1,0 +1,16 @@
+# mysql 配置
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password: "via@123456"
+  db_name: common
+
+application:
+  server:
+    port: 3000
+    host: 0.0.0.0
+
+snow_flake_id_worker:
+  work_id: 5
+  data_center_id: 3
